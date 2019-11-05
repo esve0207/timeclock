@@ -1,0 +1,208 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 22, 2019, 6:59:12 AM
+    Author     : sudee
+*/
+
+
+   
+#seltable{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    width: 400px;
+    height: 150px;
+}
+
+p,select {
+  font-size: 100%; 
+ font-family: "Arial", Verdana, Arial Narrow,  Helvetica, sans-serif;
+color : rgb(66, 66, 111);
+}
+
+input[type=text] {
+    width: 60%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid darkgray;
+    /* border: 1px solid #4fabc9;*/
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+/*box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),
+            0 17px 50px 0 rgba(0,0,0,0.19);*/
+ -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+
+}
+
+input[type=text]:hover {
+   border: 2px solid #4fabc9;
+
+
+}
+input[type="radio"] {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+    transform: scale(1.5);
+}
+.button {
+    background-color: #008CBA;
+    border: 2px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+h1 {
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+
+h1_1 {
+ font-size: 0.50em;
+ font-family: "Arial", Verdana, Arial Narrow,  Helvetica, sans-serif;
+ font-weight: bold;
+ text-align:center;
+ letter-spacing: 1px;
+ color: #002D4B;
+ /*text-transform: uppercase; rgb(226,235,180)*/
+ background-color: rgb(226,235,180);
+ padding: 5px 15px 2px 15px;
+ margin: 0 -15px 20px -15px;
+}
+h2 {
+ font-size: 1.0em;
+  font-family: "Arial", Verdana, Arial Narrow,  Helvetica, sans-serif;
+  /*color: rgb(249,107,24);*/
+  color : rgb(139, 0, 0);
+ border-top: 2px dotted rgb(141,165,22);
+ border-bottom: 2px dotted rgb(141,165,22);
+ padding-top: 5px;
+ padding-bottom: 5px;
+ margin: 15px 0 5px 0;
+ overflow: hidden;
+ text-shadow:
+ 	0px -1px 0px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,1);
+ -moz-text-shadow:
+ 	0px -1px 0px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,1);
+ -webkit-text-shadow:
+ 	0px -1px 0px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,1);
+}
+
+h3 {
+     font-family: "Arial", Verdana, Arial Narrow,  Helvetica, sans-serif;
+	font-size: 14px;
+	color: #050505;
+text-shadow:
+		0px -1px 0px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,1);
+-moz-text-shadow:
+		0px -1px 0px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,1);
+-webkit-text-shadow:
+		0px -1px 0px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,1);
+
+}
+normaltext{
+  font-size: 75%;
+ font-family: "Arial", Verdana, Arial Narrow,  Helvetica, sans-serif;
+color:#686868;
+}
+
+redtext{
+color:#C00000 ;
+font-family: "Arial", Verdana, Arial Narrow,  Helvetica, sans-serif;
+  font-size: 75%;
+}
+
+bigtext{
+  font-family: "Arial", Verdana, Arial Narrow,  Helvetica, sans-serif;
+	font-size: 100%;
+	color: #050505;
+text-shadow:
+		0px -1px 0px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,1);
+
+ -webkit-text-shadow: 
+                0px -1px 0px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,1);
+ 
+ 
+  -moz-text-shadow: 
+                0px -1px 0px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,1);
+
+}
+bigBluetext{
+  font-family: "Arial", Verdana, Arial Narrow,  Helvetica, sans-serif;
+	font-size: 100%;
+	color:#000080 ;
+font-weight: bold;
+text-shadow:
+		0px -1px 0px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,1);
+
+-moz-text-shadow:
+		0px -1px 0px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,1);
+
+-webkit-text-shadow:
+		0px -1px 0px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,1);
+}
+bigRedtext{
+  font-family: "Arial", Verdana, Arial Narrow,  Helvetica, sans-serif;
+	font-size: 100%;
+	color:#C00000 ;
+font-weight: bold;
+text-shadow:
+		0px -1px 0px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,1);
+
+-moz-text-shadow:
+		0px -1px 0px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,1);
+
+-webkit-text-shadow:
+		0px -1px 0px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,1);
+}
+#dbtable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+   table-layout: auto;
+  
+}
+
+#dbtable td, #dbtable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  height:0px;
+}
+
+#dbtable tr:nth-child(even){background-color: #f2f2f2;}
+
+#dbtable tr:hover {background-color: #ddd;}
+
+#dbtable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4fabc9;
+  color: white;
+}

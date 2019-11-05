@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+ <context-param>
+    <param-name>cfgFile</param-name>
+    <param-value>c:\\kig\\timeclock\tc_config.txt</param-value>
+</context-param>   
+<context-param>
+    <param-name>logFile</param-name>
+    <param-value>c:\\kig\\timeclock\\logs\\tc.log</param-value>
+</context-param> 
+    <servlet>
+        <servlet-name>MainServlet</servlet-name>
+        <servlet-class>sudeer.timeclock.MainServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MainServlet</servlet-name>
+        <url-pattern>/MainServlet</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
